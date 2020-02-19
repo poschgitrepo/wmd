@@ -13122,7 +13122,7 @@ div#notebook {
 
 </code></pre>
 <p>Nachfolgend ist in die Einstellungen des Repos zu sehen</p>
-<p><img style="float: left;" src="PIC/image.png" ></p>
+<p><img style="float: left;" src="./PIC/image.png" ></p>
 
 </div>
 </div>
@@ -13137,9 +13137,8 @@ Geben sie hierzu den Pfad ihres Gits ein</p>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div>
-<img style="float: left;" src="PIC/image2.png"  width="400" >
-</div>
+<p><img style="float: left;" src="./PIC/image2.PNG"  width="400" ></p>
+
 </div>
 </div>
 </div>
@@ -13183,9 +13182,8 @@ jupyter notebook
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div>
-<img style="float: center;" src="PIC/image3.png"  width="300" >
-</div>
+<p><img style="float: center;" src="./PIC/image3.PNG"  width="300" ></p>
+
 </div>
 </div>
 </div>
@@ -13204,8 +13202,17 @@ jupyter notebook
 
 </div>
 </div>
-</div># Initializes nbinteract.
-nbinteract init
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Initializes-nbinteract.">Initializes nbinteract.<a class="anchor-link" href="#Initializes-nbinteract.">&#182;</a></h1><p>nbinteract init</p>
+<p>git add -A
+git commit -m "Setup nbinteract"
+git push origin master</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Nun sollte sich in ihrem localen Verzeichnis eine requirements.txt  erstellt haben in dieser sollten sie alle benutzen pakete eintragen z.b. numpy</p>
@@ -13248,7 +13255,7 @@ nbinteract init
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="BSP-1:--Fl&#228;chenberechnung-mittels-Schieberegler">BSP 1:  Fl&#228;chenberechnung mittels Schieberegler<a class="anchor-link" href="#BSP-1:--Fl&#228;chenberechnung-mittels-Schieberegler">&#182;</a></h3><p>Wir wollen berechnen</p>
 $$A=a*b$$<div>
-<img style="float: center;" src="PIC/image4.png"  width="300" >
+<img style="float: center;" src="./PIC/image4.PNG" width="300" >
 </div>
 </div>
 </div>
@@ -13286,7 +13293,7 @@ $$A=a*b$$<div>
 
   
 
-  <div class="nbinteract-left nbinteract-right
+  <div class="nbinteract-left
       cell border-box-sizing code_cell rendered">
     <div class="input">
 
@@ -13294,8 +13301,6 @@ $$A=a*b$$<div>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:left</span>
 <span class="n">interact</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span><span class="n">b</span><span class="o">=</span><span class="s1">&#39;1.5&#39;</span><span class="p">);</span>
-<span class="c1"># nbi:right</span>
-<span class="n">interact</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span><span class="n">b</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;One&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Five&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;Ten&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">});</span>
 </pre></div>
 
     </div>
@@ -13319,6 +13324,31 @@ $$A=a*b$$<div>
   </div>
 
 </div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="nbinteract-right
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nbi:right</span>
+<span class="n">interact</span><span class="p">(</span><span class="n">square</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">5</span><span class="p">),</span><span class="n">b</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;One&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Five&#39;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="s1">&#39;Ten&#39;</span><span class="p">:</span> <span class="mi">10</span><span class="p">});</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
 
 <div class="output_area">
 
@@ -13369,7 +13399,7 @@ $$A=a*b$$<div>
     }
 
     var interact = new window.NbInteract({
-      spec: 'wmd//master',
+      spec: 'poschgitrepo/wmd/master',
       baseUrl: 'https://mybinder.org',
       provider: 'gh',
     })
